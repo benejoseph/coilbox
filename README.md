@@ -1,4 +1,6 @@
-#coilbox
+**The goal of this is to make a box that you can put something in and make that thing experience a magnetic field.**
+
+**The Arduino board is there to drive a signal of your choosing. In this example it's just making a sinusoid."
 
 1. rp2040 propmaker from adafruit goes in the bottom
 2. 24 AWG magnet wire is wrapped around the top pocket
