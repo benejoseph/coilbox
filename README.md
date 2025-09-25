@@ -14,8 +14,18 @@ Other pro tips
 4. I ended up drilling and tapping M2.5 threads into the holes in the back.  I recommend getting a kit of this stuff.  In the end I used 4x M2.5 * 12mm screws, M2.5 * 10mm female-female spacers, and M2.5 * 6mm screws to attach the propmaker.  And... the two holes near the terminal of the propmaker is too narrow to get the screws in. oops.
 5. IDE setup -- follow the [adafruit instructions](https://learn.adafruit.com/adafruit-rp2040-prop-maker-feather/arduino-ide-setup) for the rp2040 prop maker.
 
+### pictures of the box completed
 ![looking into the box](PXL_20240624_233743795.jpg?raw=true "Looking into the box")
 ![side view](PXL_20240624_233732530.jpg?raw=true "Side View")
 ![rear view](PXL_20240624_233807952.jpg?raw=true "Rear View")
+
+
+### 15hz sinuosid (measured output, measured output PSD)
+![15hz time series from make_sinusoid](15hz.png?raw=true)
+![15hz PSD](15hz_power.png?raw=true)
+
+### pulse (input waveform, measured output)
+![pulse input waveform](pulse_input.png?raw=true)
+![pulse output](pulse.png?raw=true)
 
 
