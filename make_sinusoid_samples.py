@@ -6,9 +6,11 @@ freq_hz = 15
 duration_seconds = 1.0
 n_bits = 14
 
-
-t = np.linspace(0, freq_hz*2*np.pi, int( duration_seconds * fs_hz))
-x = (np.sin(t)*(2**n_bits - 1)).astype(int)
+dtheta = 2*np.pi * freq_hz / float(fs_hz)
+t = np.array(range(0, int( duration_seconds * fs_hz)))
+print(t.shape)
+theta = t * dtheta
+x = (np.sin(theta)*(2**n_bits - 1)).astype(int)
 bb = ','.join([str(int(s)) for s in x.tolist()])
 
 f = open('sinusoid_samples.h', 'w')
